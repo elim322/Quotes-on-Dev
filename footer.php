@@ -20,7 +20,9 @@
 						 	) 
 						); 
 					?>
-					<p>Brought to you by <a href="http://www.redacademy.com/">RED Academy</a></p>	
+					<div class="author">
+					<p>Brought to you by <a href="http://www.redacademy.com/"><span class="school">RED Academy</span></a></p>	
+					</div>
 				</div><!-- .site-info -->
 			</footer><!-- #colophon -->
 		</div><!-- #page -->

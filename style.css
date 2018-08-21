@@ -221,6 +221,30 @@ th {
 /*--------------------------------------------------------------
 # Embedded Fonts
 --------------------------------------------------------------*/
+@font-face {
+  font-family: 'Exo';
+  src: url("../../assets/transfonter-fonts/Exo-LightItalic.woff2") format("woff2"), url("../../assets/transfonter-fonts/Exo-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Exo';
+  src: url("../../assets/transfonter-fonts/Exo-Light.woff2") format("woff2"), url("../../assets/transfonter-fonts/Exo-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Exo';
+  src: url("../../assets/transfonter-fonts/Exo-MediumItalic.woff2") format("woff2"), url("../../assets/transfonter-fonts/Exo-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Exo';
+  src: url("../../assets/transfonter-fonts/Exo-Medium.woff2") format("woff2"), url("../../assets/transfonter-fonts/Exo-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal; }
+
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -587,5 +611,66 @@ object {
 /*--------------------------------------------------------------
 # Page Templates
 --------------------------------------------------------------*/
+body {
+  background-color: #222222; }
+
+.container {
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: 2.5%;
+  width: 100%; }
+
+.logo {
+  text-align: left; }
+  .logo img {
+    display: block;
+    width: 300px; }
+
+.random-quotes {
+  font-family: 'Exo', serif;
+  color: white;
+  font-size: 1.25rem; }
+
+.blog .entry-title {
+  display: inline;
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 0; }
+  .blog .entry-title .source {
+    text-decoration: none; }
+
+#new-quote-button {
+  background-color: #222;
+  border: 2px solid #0c0;
+  border-radius: 3px;
+  color: #0c0;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1;
+  padding: .75rem 2.25rem;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-shadow: none;
+  font-family: 'Exo', serif; }
+  #new-quote-button:hover {
+    color: #43962A;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    text-shadow: none;
+    border: 2px solid #43962A; }
+
+.site-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 4.5rem 0 3rem; }
+
+.author {
+  color: white; }
+  .author .school {
+    color: #0c0; }
+
 /* All Archives Page */
 /* Submit a Quote Page */

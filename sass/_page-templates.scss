@@ -1,7 +1,71 @@
 /*--------------------------------------------------------------
 # Page Templates
 --------------------------------------------------------------*/
+body {
+  background-color: #222222;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: 2.5%;
+  width: 100%;
+}
+// header 
+.logo {
+  text-align: left; 
+  img {
+    display: block; 
+    width: 300px; 
+  }
+}
+//front page 
+.random-quotes {
+  font-family: 'Exo', serif;
+  color: white; 
+  font-size: 1.25rem; 
+}
+.blog .entry-title {
+  display: inline;
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 0;
+  .source {
+    text-decoration: none; 
+  }
+}
 
+#new-quote-button {
+  background-color: #222;
+    border: 2px solid #0c0;
+    border-radius: 3px;
+    color: #0c0;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1;
+    padding: .75rem 2.25rem;
+    box-shadow: none; 
+    text-shadow: none; 
+    font-family: 'Exo', serif; 
+    &:hover {
+      color: #43962A;
+      box-shadow: none; 
+      text-shadow: none; 
+      border: 2px solid #43962A;
+    }
+}
+
+//footer 
+.site-info {
+  display: flex; 
+  flex-wrap: wrap; 
+  margin: 4.5rem 0 3rem; 
+}
+.author {
+  color: white; 
+  .school {
+    color: #0c0;
+  }
+}
 /* All Archives Page */
 
 /* Submit a Quote Page */
