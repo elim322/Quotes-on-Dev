@@ -10,7 +10,7 @@
 			</div><!-- #content -->
  
 			<footer id="colophon" class="site-footer" role="contentinfo">
-				<div class="site-info">
+				<div class="footer-info">
 					<?php 
 						wp_nav_menu( 
 					 	array( 

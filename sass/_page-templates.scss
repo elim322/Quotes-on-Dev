@@ -29,9 +29,6 @@ body {
   font-size: 1.25rem;
   font-weight: 400;
   margin-bottom: 0;
-  .source {
-    text-decoration: none; 
-  }
 }
 
 #new-quote-button {
@@ -55,10 +52,32 @@ body {
 }
 
 //footer 
-.site-info {
-  display: flex; 
-  flex-wrap: wrap; 
-  margin: 4.5rem 0 3rem; 
+.footer-info {
+  .footer-navigation{
+    display: inline-flex;
+    list-style: none;
+    margin: 1rem 0 0;
+    padding: 0;
+    ul {
+      display: flex; 
+      flex-wrap: wrap; 
+      margin-top: 4.5rem; 
+      margin-bottom: 0;
+      margin-left: 0;
+      list-style: none;
+      padding: 0; 
+    }
+    li {
+      border-right: 1px solid #fff;
+      line-height: 1;
+      padding: 0 1rem;
+    }
+    a {
+      text-decoration: none; 
+      color: #0c0;
+    }
+
+  }
 }
 .author {
   color: white; 
@@ -66,6 +85,88 @@ body {
     color: #0c0;
   }
 }
-/* All Archives Page */
+
+//About 
+h1.entry-title {
+  margin-top: 3rem; 
+  color: #fff;
+  font-family: 'Exo', serif; 
+}
+.entry-content {
+  color: #fff; 
+  font-family: 'Exo', serif; 
+  font-size: 1rem;
+  line-height: 1.5; 
+}
+/* Archives Page */
+.post-archives {
+  h2 {
+    color: white; 
+    font-family: 'Exo', serif; 
+  }
+  ul {
+    list-style: none; 
+    margin-left: 0;
+    padding-left: 0; 
+    display: flex; 
+    flex-wrap: wrap; 
+  }
+  li {
+    margin-bottom: .5rem; 
+    margin-right: 1.125rem; 
+  }
+  a {
+    text-decoration: none; 
+    color: #0c0;
+    font-family: 'Exo', serif; 
+  }
+}
+
+.category-archives {
+  h2 {
+    color: white; 
+    font-family: 'Exo', serif; 
+  }
+  ul {
+    list-style: none; 
+    margin-left: 0;
+    padding-left: 0; 
+    display: flex; 
+    flex-wrap: wrap; 
+  }
+  li {
+    margin-bottom: .5rem; 
+    margin-right: 1.125rem; 
+  }
+  a {
+    text-decoration: none; 
+    color: #0c0;
+    font-family: 'Exo', serif; 
+  }
+}
+
+.tag-archives {
+  h2 {
+    color: white; 
+    font-family: 'Exo', serif; 
+  }
+  ul {
+    list-style: none; 
+    margin-left: 0;
+    padding-left: 0; 
+    display: flex; 
+    flex-wrap: wrap; 
+  }
+  li {
+    margin-bottom: .5rem; 
+    margin-right: 1.125rem; 
+  }
+  a {
+    text-decoration: none; 
+    color: #0c0;
+    font-family: 'Exo', serif; 
+  }
+}
 
 /* Submit a Quote Page */
+//logged in 

@@ -636,8 +636,6 @@ body {
   font-size: 1.25rem;
   font-weight: 400;
   margin-bottom: 0; }
-  .blog .entry-title .source {
-    text-decoration: none; }
 
 #new-quote-button {
   background-color: #222;
@@ -659,18 +657,116 @@ body {
     text-shadow: none;
     border: 2px solid #43962A; }
 
-.site-info {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin: 4.5rem 0 3rem; }
+.footer-info .footer-navigation {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  list-style: none;
+  margin: 1rem 0 0;
+  padding: 0; }
+  .footer-info .footer-navigation ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 4.5rem;
+    margin-bottom: 0;
+    margin-left: 0;
+    list-style: none;
+    padding: 0; }
+  .footer-info .footer-navigation li {
+    border-right: 1px solid #fff;
+    line-height: 1;
+    padding: 0 1rem; }
+  .footer-info .footer-navigation a {
+    text-decoration: none;
+    color: #0c0; }
 
 .author {
   color: white; }
   .author .school {
     color: #0c0; }
 
-/* All Archives Page */
+h1.entry-title {
+  margin-top: 3rem;
+  color: #fff;
+  font-family: 'Exo', serif; }
+
+.entry-content {
+  color: #fff;
+  font-family: 'Exo', serif;
+  font-size: 1rem;
+  line-height: 1.5; }
+
+/* Archives Page */
+.post-archives h2 {
+  color: white;
+  font-family: 'Exo', serif; }
+
+.post-archives ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.post-archives li {
+  margin-bottom: .5rem;
+  margin-right: 1.125rem; }
+
+.post-archives a {
+  text-decoration: none;
+  color: #0c0;
+  font-family: 'Exo', serif; }
+
+.category-archives h2 {
+  color: white;
+  font-family: 'Exo', serif; }
+
+.category-archives ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.category-archives li {
+  margin-bottom: .5rem;
+  margin-right: 1.125rem; }
+
+.category-archives a {
+  text-decoration: none;
+  color: #0c0;
+  font-family: 'Exo', serif; }
+
+.tag-archives h2 {
+  color: white;
+  font-family: 'Exo', serif; }
+
+.tag-archives ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.tag-archives li {
+  margin-bottom: .5rem;
+  margin-right: 1.125rem; }
+
+.tag-archives a {
+  text-decoration: none;
+  color: #0c0;
+  font-family: 'Exo', serif; }
+
 /* Submit a Quote Page */
