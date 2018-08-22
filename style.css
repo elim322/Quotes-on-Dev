@@ -681,12 +681,17 @@ body {
     padding: 0 1rem; }
   .footer-info .footer-navigation a {
     text-decoration: none;
-    color: #0c0; }
+    color: #0c0;
+    font-family: 'Exo', Serif; }
 
 .author {
-  color: white; }
+  color: white;
+  font-family: 'Exo', Serif; }
   .author .school {
-    color: #0c0; }
+    color: #0c0;
+    font-family: 'Exo', Serif; }
+  .author a {
+    text-decoration: none; }
 
 h1.entry-title {
   margin-top: 3rem;
@@ -770,3 +775,28 @@ h1.entry-title {
   font-family: 'Exo', serif; }
 
 /* Submit a Quote Page */
+label {
+  color: #fff;
+  display: block;
+  margin-bottom: 20px;
+  font-family: 'Exo', serif; }
+
+.qod-submit input {
+  border: 1px solid #0c0;
+  background-color: #222;
+  margin-bottom: 10px; }
+
+.qod-submit textarea {
+  border: 1px solid #0c0;
+  background-color: #222;
+  margin-bottom: 10px; }
+
+.submit-page-btn input {
+  color: #0c0;
+  border: 1px solid #0c0;
+  background: #222;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-shadow: none;
+  margin-top: 20px;
+  font-family: 'Exo', serif; }
