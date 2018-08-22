@@ -819,6 +819,10 @@ label {
   margin-top: 20px;
   font-family: 'Exo', serif; }
 
+.submit-success-message {
+  color: #fff;
+  font-family: 'Exo', serif; }
+
 .logged-out p {
   color: #fff;
   font-family: 'Exo', serif; }
