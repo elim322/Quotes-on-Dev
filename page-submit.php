@@ -36,7 +36,7 @@ get_header(); ?>
                         <input type="url" name="quote_source_url" id="quote-source-url">
                      </div>
                     <div class="submit-page-btn">
-                     <input type="submit" value="Submit Quote">
+                     <input id="submit-btn" type="submit" value="Submit Quote">
                     </div>
                   </form>
 
