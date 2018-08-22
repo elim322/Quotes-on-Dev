@@ -5,6 +5,7 @@
    * Ajax-based random post fetching & History API
    */
 
+
 lastPage = document.URL
 history.pushState(null, null, getRandomIndex());
 

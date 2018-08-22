@@ -16,6 +16,10 @@ body {
   img {
     display: block; 
     width: 300px; 
+    margin-top: 20px; 
+    @include tablet {
+      width: 500px; 
+    }
   }
 }
 //front page 
@@ -53,6 +57,7 @@ body {
 
 //footer 
 .footer-info {
+  display: flex;
   .footer-navigation{
     display: inline-flex;
     list-style: none;
@@ -61,21 +66,27 @@ body {
     ul {
       display: flex; 
       flex-wrap: wrap; 
-      margin-top: 4.5rem; 
-      margin-bottom: 0;
-      margin-left: 0;
+      margin-left: 0; 
       list-style: none;
       padding: 0; 
+      @include tablet {
+        flex-wrap: nowrap; 
+      }
     }
     li {
       border-right: 1px solid #fff;
       line-height: 1;
       padding: 0 1rem;
+      height: 1rem; 
     }
     a {
       text-decoration: none; 
       color: #0c0;
       font-family: 'Exo', Serif; 
+    }
+    p {
+      display: inline-block;
+    
     }
 
   }
@@ -103,6 +114,10 @@ h1.entry-title {
   font-family: 'Exo', serif; 
   font-size: 1rem;
   line-height: 1.5; 
+  a {
+    text-decoration: none; 
+    color: #0c0;
+  }
 }
 /* Archives Page */
 .post-archives {
@@ -202,6 +217,19 @@ label {
     box-shadow: none; 
     text-shadow: none;
     margin-top: 20px;
+    font-family: 'Exo', serif; 
+  }
+}
+
+//submit a quote (not logged in) 
+.logged-out {
+  p {
+    color: #fff; 
+    font-family: 'Exo', serif; 
+  }
+  a {
+    color: #0c0; 
+    text-decoration: none; 
     font-family: 'Exo', serif; 
   }
 }

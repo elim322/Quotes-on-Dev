@@ -624,7 +624,11 @@ body {
   text-align: left; }
   .logo img {
     display: block;
-    width: 300px; }
+    width: 300px;
+    margin-top: 20px; }
+    @media screen and (min-width: 620px) {
+      .logo img {
+        width: 500px; } }
 
 .random-quotes {
   font-family: 'Exo', serif;
@@ -657,32 +661,41 @@ body {
     text-shadow: none;
     border: 2px solid #43962A; }
 
-.footer-info .footer-navigation {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  list-style: none;
-  margin: 1rem 0 0;
-  padding: 0; }
-  .footer-info .footer-navigation ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    margin-top: 4.5rem;
-    margin-bottom: 0;
-    margin-left: 0;
+.footer-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .footer-info .footer-navigation {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
     list-style: none;
+    margin: 1rem 0 0;
     padding: 0; }
-  .footer-info .footer-navigation li {
-    border-right: 1px solid #fff;
-    line-height: 1;
-    padding: 0 1rem; }
-  .footer-info .footer-navigation a {
-    text-decoration: none;
-    color: #0c0;
-    font-family: 'Exo', Serif; }
+    .footer-info .footer-navigation ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      margin-left: 0;
+      list-style: none;
+      padding: 0; }
+      @media screen and (min-width: 620px) {
+        .footer-info .footer-navigation ul {
+          -ms-flex-wrap: nowrap;
+              flex-wrap: nowrap; } }
+    .footer-info .footer-navigation li {
+      border-right: 1px solid #fff;
+      line-height: 1;
+      padding: 0 1rem;
+      height: 1rem; }
+    .footer-info .footer-navigation a {
+      text-decoration: none;
+      color: #0c0;
+      font-family: 'Exo', Serif; }
+    .footer-info .footer-navigation p {
+      display: inline-block; }
 
 .author {
   color: white;
@@ -703,6 +716,9 @@ h1.entry-title {
   font-family: 'Exo', serif;
   font-size: 1rem;
   line-height: 1.5; }
+  .entry-content a {
+    text-decoration: none;
+    color: #0c0; }
 
 /* Archives Page */
 .post-archives h2 {
@@ -799,4 +815,13 @@ label {
           box-shadow: none;
   text-shadow: none;
   margin-top: 20px;
+  font-family: 'Exo', serif; }
+
+.logged-out p {
+  color: #fff;
+  font-family: 'Exo', serif; }
+
+.logged-out a {
+  color: #0c0;
+  text-decoration: none;
   font-family: 'Exo', serif; }
