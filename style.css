@@ -823,6 +823,10 @@ label {
   color: #fff;
   font-family: 'Exo', serif; }
 
+.quote-submission .entry-header {
+  color: red;
+  font-family: 'Exo', serif; }
+
 .logged-out p {
   color: #fff;
   font-family: 'Exo', serif; }

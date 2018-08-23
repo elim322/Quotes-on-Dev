@@ -70,8 +70,10 @@ var lastPage = '';
           ).show();
       })
       .fail(function(err) {
-
-      })
+        $('.quote-submission .entry-header').text(
+          qod_vars.failure
+        )
+      })   
   })
 
 
