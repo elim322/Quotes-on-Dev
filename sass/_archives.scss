@@ -1,0 +1,111 @@
+
+/* Archives Page */
+
+.post-archives {
+  @include desktop {
+    margin: 0 auto; 
+    width: 600px; 
+  }
+  h2 {
+    color: white; 
+    font-family: 'Exo', serif; 
+  }
+  ul {
+    list-style: none; 
+    margin-left: 0;
+    padding-left: 0; 
+    display: flex; 
+    flex-wrap: wrap; 
+  }
+  li {
+    margin-bottom: .5rem; 
+    margin-right: 1.125rem; 
+  }
+  a {
+    text-decoration: none; 
+    color: #0c0;
+    font-family: 'Exo', serif; 
+  }
+}
+.entry-meta {
+  font-family: 'Exo', serif;
+  margin-bottom: 3rem; 
+  @include desktop {
+    width: 600px; 
+    margin: 0 auto;
+  }
+
+  .entry-title {
+    display: inline;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #fff;
+    @include desktop {
+      width: 600px; 
+      margin: 0 auto;
+    }
+  }
+  .source {
+    color: #0c0;
+    font-size: 1.25rem;
+    font-style: italic;
+  }
+}
+.site-main {
+  width: 600px; 
+  margin: 0 auto;
+}
+
+.category-archives {
+  @include desktop {
+    margin: 0 auto; 
+    width: 600px; 
+  }
+  h2 {
+    color: white; 
+    font-family: 'Exo', serif; 
+  }
+  ul {
+    list-style: none; 
+    margin-left: 0;
+    padding-left: 0; 
+    display: flex; 
+    flex-wrap: wrap; 
+  }
+  li {
+    margin-bottom: .5rem; 
+    margin-right: 1.125rem; 
+  }
+  a {
+    text-decoration: none; 
+    color: #0c0;
+    font-family: 'Exo', serif; 
+  }
+}
+
+.tag-archives {
+  @include desktop {
+    margin: 0 auto; 
+    width: 600px; 
+  }
+  h2 {
+    color: white; 
+    font-family: 'Exo', serif; 
+  }
+  ul {
+    list-style: none; 
+    margin-left: 0;
+    padding-left: 0; 
+    display: flex; 
+    flex-wrap: wrap; 
+  }
+  li {
+    margin-bottom: .5rem; 
+    margin-right: 1.125rem; 
+  }
+  a {
+    text-decoration: none; 
+    color: #0c0;
+    font-family: 'Exo', serif; 
+  }
+}

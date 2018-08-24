@@ -1,0 +1,24 @@
+//About 
+h1.entry-title {
+  margin-top: 3rem; 
+  color: #fff;
+  font-family: 'Exo', serif; 
+  @include desktop {
+    margin: 3rem auto; 
+    width: 600px;
+  }
+}
+.entry-content {
+  color: #fff; 
+  font-family: 'Exo', serif; 
+  font-size: 1rem;
+  line-height: 1.5; 
+  a {
+    text-decoration: none; 
+  }
+  @include desktop {
+     width: 600px; 
+     margin: 0 auto;
+     font-weight: 200; 
+  }
+}

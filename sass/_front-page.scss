@@ -1,0 +1,56 @@
+//front page 
+.random-quotes {
+  font-family: 'Exo', serif;
+  color: white; 
+  font-size: 1.25rem; 
+  @include tablet {
+    p {
+      font-size: 1.75rem; 
+    }
+
+  }
+  @include desktop {
+    width: 600px; 
+    margin: 0 auto;  
+  
+    p {
+      font-size: 2.2rem; 
+      width: 600px; 
+      margin: 0 auto;
+      font-weight: 200;
+    }
+  }
+}
+.source a {
+  color: #0c0; 
+}
+
+.blog .entry-title {
+  display: inline;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+#new-quote-button {
+  background-color: #222;
+    border: 2px solid #0c0;
+    border-radius: 3px;
+    color: #0c0;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1;
+    padding: .75rem 2.25rem;
+    box-shadow: none; 
+    text-shadow: none; 
+    font-family: 'Exo', serif; 
+    margin-bottom: 3rem;
+    &:hover {
+      color: #43962A;
+      box-shadow: none; 
+      text-shadow: none; 
+      border: 2px solid #43962A;
+    }
+    @include tablet {
+      margin-bottom: 100px
+    }
+}

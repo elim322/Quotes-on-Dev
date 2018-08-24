@@ -1,0 +1,25 @@
+
+//search results page
+.search-form {
+  display: flex;
+  padding: 0 1rem;
+  label {
+    margin: 0;
+  }
+}
+.search-submit {
+  border: 0;
+  box-shadow: none; 
+  background: #222;
+  color: #222; 
+  text-shadow: none; 
+  .fa-search {
+    color: #0c0; 
+  }
+}
+fieldset {
+  border: 0;
+  margin: 0; 
+  padding: 0; 
+}
+

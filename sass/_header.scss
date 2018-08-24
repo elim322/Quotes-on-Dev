@@ -1,0 +1,39 @@
+.logo {
+  text-align: left; 
+  img {
+    display: block; 
+    width: 300px; 
+    margin-top: 20px; 
+    @include tablet {
+      width: 500px; 
+    }
+    @include desktop {
+      width: 700px; 
+      margin: 0 auto;
+      padding-bottom: 2rem;
+    }
+  }
+}
+
+.site-content::before {
+  @include desktop {
+    font-family: 'FontAwesome';
+    content: '\f10d';
+    position: absolute; 
+    color: #0c0;
+    font-size: 100px; 
+    left: 190px; 
+    top: 180px;  
+  }
+}
+.site-content::after {
+  @include desktop {
+    font-family: 'FontAwesome';
+    content: '\f10e';
+    position: absolute; 
+    color: #0c0;
+    font-size: 100px; 
+    top: 180px; 
+    right: 200px; 
+  }
+}

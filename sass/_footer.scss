@@ -1,0 +1,60 @@
+//footer 
+.footer-info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  @include tablet {
+    justify-content: flex-end; 
+  }
+  @include desktop {
+    justify-content: flex-end; 
+  }
+  .footer-navigation{
+    list-style: none;
+    font-size: 16px; 
+    ul {
+      display: flex; 
+      margin-bottom: 1rem;
+      margin-left: 0;
+      margin-right: 0; 
+      margin-top: 0;
+      list-style: none;
+      padding: 0; 
+      @include tablet {
+        flex-wrap: nowrap; 
+      }
+    }
+    li {
+      border-right: 1px solid #fff;
+      padding: 0 1rem;
+      line-height: 1;
+      &:last-child {
+        border: none;
+      }
+    }
+    a {
+      text-decoration: none; 
+      color: #0c0;
+      font-family: 'Exo', Serif; 
+    }
+ 
+  }
+}
+.author {
+  display: block;
+  color: white; 
+  font-family: 'Exo', Serif; 
+  font-size: 16px;
+  p {
+    margin: 0;
+    padding: 0 1rem;
+    line-height: 1;
+  }
+  .school {
+    color: #0c0;
+    font-family: 'Exo', Serif; 
+  }
+  a {
+    text-decoration: none; 
+  }
+}

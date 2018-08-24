@@ -1,0 +1,23 @@
+
+//error 404
+.page-title {
+  color: #fff;
+  font-family: 'Exo', serif; 
+  @include desktop {
+    width: 600px; 
+    margin: 0 auto;
+  }
+}
+.page-content {
+  p {
+    color: #fff;
+    font-family: 'Exo', serif; 
+  }
+  .search-field {
+    background-color: #222;
+    color: #fff;
+    border: 1px solid #0c0;
+    display: inline; 
+    font-family: 'Exo', serif; 
+  }
+}

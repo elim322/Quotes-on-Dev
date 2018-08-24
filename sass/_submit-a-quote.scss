@@ -1,0 +1,73 @@
+/* Submit a Quote Page */
+//logged in 
+label {
+  color: #fff; 
+  display: block; 
+  margin-bottom: 20px; 
+  font-family: 'Exo', serif; 
+ }
+ .qod-submit {
+   @include desktop {
+     width: 600px; 
+     margin: 0 auto; 
+   }
+   input {
+     border: 1px solid #0c0;
+     background-color: #222; 
+     margin-bottom: 10px; 
+     color: #fff;
+   }
+   textarea {
+     border: 1px solid #0c0;
+     background-color: #222; 
+     margin-bottom: 10px; 
+     color: #fff;
+   }
+ }
+ .submit-page-btn { 
+   @include desktop {
+     width: 600px; 
+     margin: 0 auto;
+   }
+   input {
+     color: #0c0; 
+     border: 1px solid #0c0;
+     background: #222; 
+     box-shadow: none; 
+     text-shadow: none;
+     margin-top: 20px;
+     font-family: 'Exo', serif; 
+     &:hover {
+       box-shadow: none; 
+       border: 1px solid #43962A;
+       color: #43962A;
+     }
+   }
+ }
+ .submit-success-message {
+   color: #fff;
+   font-family: 'Exo', serif; 
+   text-align: center;
+ }
+ .quote-submission .entry-header {
+   color: red; 
+   font-family: 'Exo', serif;
+   @include desktop {
+     width: 600px; 
+     margin: 0 auto;
+   }
+   
+ }
+ 
+ //submit a quote (not logged in) 
+ .logged-out {
+   p {
+     color: #fff; 
+     font-family: 'Exo', serif; 
+   }
+   a {
+     color: #0c0; 
+     text-decoration: none; 
+     font-family: 'Exo', serif; 
+   }
+ }
