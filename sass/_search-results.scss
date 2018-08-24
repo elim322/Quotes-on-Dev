@@ -1,10 +1,41 @@
 
 //search results page
+.search-results.content-area {
+  .page-numbers.current {
+    color: #fff;
+    padding: 0.5rem;
+  }
+  a {
+    color: #0c0;
+    text-decoration: none;
+    font-family: 'Exo', serif;
+    padding: 0.5rem;
+  }
+  p {
+    color: #fff;
+    font-family: 'Exo', serif; 
+    width: 400px;
+  }
+  .number-pagination {
+    color: #0c0;
+    margin-bottom: 1rem;
+  }
+}
 .search-form {
   display: flex;
   padding: 0 1rem;
+  margin-bottom: 3rem;
   label {
     margin: 0;
+  }
+  .search-field {
+    width: 240px; 
+  }
+  textarea:focus, input:focus {
+    color: #fff;
+}
+  @include desktop {
+    margin-bottom: 3rem;
   }
 }
 .search-submit {
@@ -22,4 +53,5 @@ fieldset {
   margin: 0; 
   padding: 0; 
 }
+
 

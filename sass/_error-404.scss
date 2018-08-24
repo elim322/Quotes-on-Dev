@@ -3,6 +3,10 @@
 .page-title {
   color: #fff;
   font-family: 'Exo', serif; 
+  width: 300px;
+  border-bottom: 1px dotted #fff;
+  padding-bottom: 1.5rem;
+  margin-top: 3rem;
   @include desktop {
     width: 600px; 
     margin: 0 auto;
@@ -12,6 +16,10 @@
   p {
     color: #fff;
     font-family: 'Exo', serif; 
+    width: 400px;
+    @include desktop {
+      width: 600px;
+    }
   }
   .search-field {
     background-color: #222;

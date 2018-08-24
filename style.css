@@ -717,6 +717,7 @@ h1.entry-title {
       width: 600px; } }
 
 .entry-content {
+  width: 400px;
   color: #fff;
   font-family: 'Exo', serif;
   font-size: 1rem;
@@ -841,7 +842,11 @@ h1.entry-title {
 
 .page-title {
   color: #fff;
-  font-family: 'Exo', serif; }
+  font-family: 'Exo', serif;
+  width: 300px;
+  border-bottom: 1px dotted #fff;
+  padding-bottom: 1.5rem;
+  margin-top: 3rem; }
   @media screen and (min-width: 1080px) {
     .page-title {
       width: 600px;
@@ -849,7 +854,11 @@ h1.entry-title {
 
 .page-content p {
   color: #fff;
-  font-family: 'Exo', serif; }
+  font-family: 'Exo', serif;
+  width: 400px; }
+  @media screen and (min-width: 1080px) {
+    .page-content p {
+      width: 600px; } }
 
 .page-content .search-field {
   background-color: #222;
@@ -921,13 +930,40 @@ h1.entry-title {
   .author a {
     text-decoration: none; }
 
+.search-results.content-area .page-numbers.current {
+  color: #fff;
+  padding: 0.5rem; }
+
+.search-results.content-area a {
+  color: #0c0;
+  text-decoration: none;
+  font-family: 'Exo', serif;
+  padding: 0.5rem; }
+
+.search-results.content-area p {
+  color: #fff;
+  font-family: 'Exo', serif;
+  width: 400px; }
+
+.search-results.content-area .number-pagination {
+  color: #0c0;
+  margin-bottom: 1rem; }
+
 .search-form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 0 1rem; }
+  padding: 0 1rem;
+  margin-bottom: 3rem; }
   .search-form label {
     margin: 0; }
+  .search-form .search-field {
+    width: 240px; }
+  .search-form textarea:focus, .search-form input:focus {
+    color: #fff; }
+  @media screen and (min-width: 1080px) {
+    .search-form {
+      margin-bottom: 3rem; } }
 
 .search-submit {
   border: 0;
