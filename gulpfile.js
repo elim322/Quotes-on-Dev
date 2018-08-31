@@ -9,7 +9,6 @@ const eslint = require('gulp-eslint');
 const browserSync = require('browser-sync');
 
 // Create basic Gulp tasks
-
 gulp.task('sass', function () {
     return gulp
         .src('./sass/style.scss', {sourcemaps: true})
@@ -49,9 +48,7 @@ gulp.task(
             .pipe(gulp.dest('./build/js'));
     })
 );
-
 // Set-up BrowserSync and watch
-
 gulp.task('browser-sync', function () {
     const files = [
         './build/css/*.css',

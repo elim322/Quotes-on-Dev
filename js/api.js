@@ -33,8 +33,6 @@ var lastPage = '';
         );
      }
  
-
-  
       history.pushState(null, null, quotes.slug);
       $(window).on('popstate' , function() {
         window.location.replace(lastPage);
@@ -75,7 +73,5 @@ var lastPage = '';
         )
       })   
   })
-
-
 
 })(jQuery);
