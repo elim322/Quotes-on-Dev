@@ -1,23 +1,25 @@
-# Quotes on Dev Starter
+# Quotes on Dev 
 
-A WordPress starter theme for the Quotes on Dev project, forked from Underscores.
+Quotes on Dev is a website that randomizes quotes about developers and quotes are sorted by categories, tags, and authors. The site also allows users to submit user generated quotes, but will have to be approved before it publishes on the page. 
 
 ## Installation
 
 ### 1. Download me (don't clone me!)
 
-Then add me to your `wp-content/themes` directory.
+Download the theme and add it to wp-content/themes. 
 
-### 2. Rename the `quotesondev-starter-master` directory
+### 2. Install the dev dependencies
 
-Make sure that the theme directory name is project appropriate! Do you need `starter` or `master` in the directory name?
+Next run `npm install` **inside your theme directory** to install Gulp.
 
-### 3. Install the dev dependencies
+### 3. Update the proxy in `gulpfile.js`
 
-Next you'll need to run `npm install` **inside your theme directory** to install the npm packages you'll need for Gulp, etc.
+Lastly, be sure to update `gulpfile.js` with the appropriate URL for the Browsersync proxy (so change `localhost[:port-here]/[your-dir-name-here]` to the appropriate localhost URL).
 
-### 4. Update the proxy in `gulpfile.js`
+## Main Components 
 
-Lastly, be sure to update your `gulpfile.js` with the appropriate URL for the Browsersync proxy (so change `localhost[:port-here]/[your-dir-name-here]` to the appropriate localhost URL).
+* GET post using REST API 
+  * Calls the Ajax method when the user hits the "Show me Another!" button. 
+  * Injects page slug into URL, which allows the user to press forward and back buttons on website without reloading the site. 
+* Built with SASS, PHP, and jQuery. 
 
-And now would be a good time to `git init` :)
