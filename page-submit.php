@@ -16,7 +16,6 @@ get_header(); ?>
          	</header><!-- .entry-header -->
 
             <?php if ( is_user_logged_in() && current_user_can( 'edit_posts' ) ) : ?>
-
                <div class="quote-submission-wrapper">
                   <form name="quoteForm" id="quote-submission-form">
                      <div class="qod-submit">
@@ -39,17 +38,13 @@ get_header(); ?>
                      <input id="submit-btn" type="submit" value="Submit Quote">
                     </div>
                   </form>
-
-                  <p class="submit-success-message" style="display:none;"></p>
+                  <p class="submit-success-message"></p>
                </div> 
-
             <?php else : ?>
             <div class="logged-out">
                <p>Sorry, you must be logged in to submit a quote!</p>
-
                <p><?php echo sprintf( '<a href="%1s">%2s</a>', esc_url( wp_login_url() ), 'Click here to login.' ); ?></p>
               </div>
-
             <?php endif; ?>
          </section>
 

@@ -1027,7 +1027,8 @@ label {
 .submit-success-message {
   color: #fff;
   font-family: 'Exo', serif;
-  text-align: center; }
+  text-align: center;
+  display: none; }
 
 .quote-submission .entry-header {
   color: red;
