@@ -3,7 +3,7 @@
 Quotes on Dev is a website that randomizes quotes about developers and quotes are sorted by categories, tags, and authors. The site also allows users to submit user generated quotes, but will have to be approved before it publishes on the page. 
 
 ## Screenshot 
-![Screenshot](./images/Screen Shot 2018-08-31 at 3.23.33 PM.png?raw=true "QOD Front Page")
+![Screenshot](images/Screen Shot 2018-08-31 at 3.23.33 PM.png?raw=true "QOD Front Page")
 
 ## Installation
 
