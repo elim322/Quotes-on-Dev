@@ -61,11 +61,11 @@ var lastPage = '';
           xhr.setRequestHeader( 'X-WP-Nonce', qod_vars.wpapi_nonce );
        }
       }).done(function() {
-        $('#quote-submission-form').slideUp();
-
-        $('.submit-success-message').text(
+        $('#quote-submission-form').slideUp('slow', function(){
+          $('.submit-success-message').text(
             qod_vars.success
           ).show();
+        });
       })
       .fail(function() {
         $('.quote-submission .entry-header').text(

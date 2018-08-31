@@ -929,7 +929,7 @@ h1.entry-title {
   .author a {
     text-decoration: none; }
 
-.search-results.content-area .page-numbers.current {
+.search-results.content-area .page-numbers {
   color: #fff;
   padding: 0.5rem; }
 
