@@ -435,7 +435,7 @@ a {
   a:visited {
     color: #0c0; }
   a:hover, a:focus, a:active {
-    color: midnightblue; }
+    color: #43962A; }
   a:focus {
     outline: thin dotted; }
   a:hover, a:active {
@@ -467,7 +467,8 @@ a {
       .main-navigation ul ul li.focus > ul {
         left: 100%; }
       .main-navigation ul ul a {
-        width: 200px; }
+        width: 200px;
+        color: #43962A; }
     .main-navigation ul li:hover > ul,
     .main-navigation ul li.focus > ul {
       left: auto; }
@@ -476,7 +477,8 @@ a {
     position: relative; }
   .main-navigation a {
     display: block;
-    text-decoration: none; }
+    text-decoration: none;
+    color: #43962A; }
 
 /* Small menu. */
 .menu-toggle,
@@ -621,6 +623,9 @@ body {
   width: 100%; }
 
 a:visited {
+  color: #43962A; }
+
+a:hover {
   color: #43962A; }
 
 .logo {
@@ -1016,8 +1021,9 @@ label {
   -webkit-box-shadow: none;
           box-shadow: none;
   text-shadow: none;
-  margin-top: 20px;
-  font-family: 'Exo', serif; }
+  margin-top: 1.25rem;
+  font-family: 'Exo', serif;
+  font-size: 1rem; }
   .submit-page-btn input:hover {
     -webkit-box-shadow: none;
             box-shadow: none;

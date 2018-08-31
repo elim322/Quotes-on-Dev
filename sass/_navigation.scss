@@ -60,6 +60,7 @@ a {
 
 			a {
 				width: 200px;
+				color: $color__link-hover;
 			}
 
 			:hover > a,
@@ -87,6 +88,7 @@ a {
 	a {
 		display: block;
 		text-decoration: none;
+		color: $color__link-hover;
 	}
 
 	.current_page_item > a,
