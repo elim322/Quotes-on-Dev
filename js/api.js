@@ -31,7 +31,7 @@ var lastPage = '';
         $('.entry-meta span').text(
           quotes._qod_quote_source
         );
-     };
+     }
  
 
   
@@ -62,14 +62,14 @@ var lastPage = '';
        beforeSend: function(xhr) {
           xhr.setRequestHeader( 'X-WP-Nonce', qod_vars.wpapi_nonce );
        }
-      }).done(function(response) {
+      }).done(function() {
         $('#quote-submission-form').slideUp();
 
         $('.submit-success-message').text(
             qod_vars.success
           ).show();
       })
-      .fail(function(err) {
+      .fail(function() {
         $('.quote-submission .entry-header').text(
           qod_vars.failure
         )

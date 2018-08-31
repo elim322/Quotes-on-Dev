@@ -849,7 +849,6 @@ h1.entry-title {
   color: #fff;
   font-family: 'Exo', serif;
   width: 300px;
-  border-bottom: 1px dotted #fff;
   padding-bottom: 1.5rem;
   margin-top: 3rem; }
   @media screen and (min-width: 1080px) {
